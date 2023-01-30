@@ -1,0 +1,317 @@
+.popup-payment {
+  background-color: white;
+  padding: 0 5vw 10vh 5vh;
+  margin-top: -83vh;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: scroll;
+}
+
+.popup-payment-inner {
+  padding: 5vh 0 3vh 0;
+  background-color: white;
+  color: black;
+}
+
+@keyframes modalFade {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(-1%);
+  }
+}
+
+.close-popup_payment_btn {
+  background-color: white;
+  border: none;
+  color: rgb(233, 225, 225);
+  font-size: 30px;
+  width: 20px;
+  height: 20.7px;
+  padding: 0 0 3vh 35vw;
+}
+
+#checkout_txt {
+  margin-left: 40vw;
+  font-family: HelveticaNeue Bold;
+  font-size: 26px;
+}
+
+#checkout_desc_txt {
+  margin: 3px 0 0 41vw;
+  font-family: HelveticaNeue Regular;
+  font-size: 15px;
+}
+
+.grid-popup-payment-container {
+  padding: 2vh 0 2vh 2vw;
+  display: grid;
+  gap: 2vw;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-popup-payment-item-form {
+  width: 55vw;
+}
+
+.grid-popup-payment-item-img {
+  width: 45vw;
+}
+
+.grid-popup-payment-item-imgs {
+  padding-top: 1vh;
+}
+
+#back_to_shopping {
+  font-family: HelveticaNeue Bold;
+  font-size: 12px;
+}
+
+.header_title {
+  margin-top: 18px;
+  font-size: 14px;
+  font-family: HelveticaNeue Bold;
+}
+
+.border_header {
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #1c1c1c;
+}
+
+.label_100_percents {
+  padding-top: 8px;
+  font-size: 14px;
+  color: gray;
+  display: block;
+}
+
+.label_firstname {
+  font-size: 14px;
+  padding: 8px 23vw 10px 0;
+  color: gray;
+  display: inline-block;
+}
+
+.label_name {
+  font-size: 14px;
+  padding: 8px 0 10px 0;
+  color: gray;
+  display: inline-block;
+}
+
+.label_country {
+  font-size: 14px;
+  padding: 8px 14.3vw 10px 0;
+  color: gray;
+  display: inline-block;
+}
+
+.label_zip {
+  font-size: 14px;
+  padding: 8px 0 10px 25px;
+  color: gray;
+  display: inline-block;
+}
+
+.label_card_number {
+  font-size: 14px;
+  padding: 8px 16vw 10px 0;
+  color: gray;
+  display: inline-block;
+}
+
+.label_expiration_date {
+  font-size: 14px;
+  padding: 8px 20.5vw 10px 0;
+  color: gray;
+  display: inline-block;
+}
+
+.input_100_percents {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  padding-top: 10px;
+}
+
+.div_inputs {
+  margin-bottom: 10px;
+}
+
+.input_firstname {
+  width: 26.3vw;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  margin-right: 18px;
+}
+
+.input_name {
+  width: 26.3vw;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+}
+
+.input_country {
+  width: 17.35vw;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  margin-right: 12px;
+}
+
+.input_zip {
+  width: 17.35vw;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+}
+
+.required_field {
+  font-family: HelveticaNeue Thin;
+  font-weight: bold;
+  padding-right: 30vh;
+}
+
+.my_bag_title {
+  font-family: HelveticaNeue Bold;
+  font-size: 14px;
+}
+
+.prdt_box {
+  width: 300px;
+  height: 140px;
+  background-color: black;
+  margin: 1vh 0 2px 0;
+}
+
+.box_close-btn {
+  padding: 1% 0.3% 0 93%;
+  background-color: black;
+  color: white;
+}
+
+.prdt_box_inner {
+  display: flex;
+  padding: 0 0 0 10px;
+  gap: 10px;
+}
+
+.selected_prdt_img_div {
+  margin-top: 4px;
+  width: 40%;
+  background-color: white;
+}
+
+.selected_prdt_img {
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.selected_prdt {
+  font-family: HelveticaNeue Bold;
+  color: white;
+  font-size: 13px;
+}
+
+.selected_prdt_name {
+  font-family: HelveticaNeue Thin;
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.selected_prdt_txt {
+  font-family: HelveticaNeue Thin;
+  color: #c7c5c1;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.selected_prdt_price_part {
+  display: flex;
+  color: white;
+  padding-top: 4px;
+}
+
+.selected_prdt_price {
+  font-family: Alef Regular;
+}
+
+.link_modify {
+  padding: 4.5px 0 0 60px;
+  color: gray;
+  font-size: 13px;
+  font-family: Helvetica Bold;
+}
+
+.link_display_belt_box {
+  color: #717171;
+  font-size: 22px;
+  font-family: HelveticaNeue Regular;
+}
+
+.div_plus_and_belt_box {
+  display: flex;
+  gap: 5px;
+}
+
+.belt_box {
+  width: 282px;
+  height: 100px;
+  background-color: black;
+  margin: 1vh 0 2px 0;
+  opacity: 0;
+}
+
+.belt_box_close-btn {
+  padding: 1% 0.3% 0 93%;
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+
+.belt_img {
+  padding: 11px 0 5px 26px;
+  width: 50%;
+  height: 70%;
+}
+
+.belt_name {
+  font-family: HelveticaNeue Thin;
+  color: white;
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.link_add_to_bag {
+  padding: 7px 0 0 32px;
+  color: #f1f1f1;
+  font-size: 11px;
+  font-family: Helvetica Bold;
+  opacity: 1;
+  transition: 1s;
+}
+
+.link_add_to_bag:hover {
+  color: gray;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 1500px) {
+  .popup-payment-inner {
+    padding: 3vh 0 3vh 0;
+  }
+
+  .close-popup_payment_btn {
+    padding: 0 0 3vh 41vw;
+  }
+}

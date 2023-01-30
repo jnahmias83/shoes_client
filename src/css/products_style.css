@@ -1,0 +1,136 @@
+#products {
+  margin-top: 0px !important;
+  background-image: linear-gradient(123deg, #1f1f1f, #000 102%);
+  color: white;
+  height: 100vh !important;
+  display: none;
+}
+
+.prdts_middle {
+  height: 80vh;
+}
+
+.prdts_bottom {
+  height: 20vh;
+}
+
+#prdt_elem_1 {
+  padding: 4vh 0 2vh 0;
+  font-family: HelveticaNeue Medium;
+  font-size: 1.8vw;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
+#prdt_elem_2 {
+  padding: 2vh 0 2vh 40.3vw;
+  font-family: HelveticaNeue Thin;
+  font-size: 1vw;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
+.grid-container {
+  display: flex;
+  padding-top: 7vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  padding: 2vh 1vw 2vh 1vw;
+  text-align: center;
+}
+
+.product_img {
+  padding-top: 2vh;
+  margin-bottom: 2vh;
+  position: relative;
+  width: 19vw;
+}
+
+.border_img {
+  height: 1vh;
+  border-radius: 20px;
+  margin: 0 0 2vh 1.5vw;
+  width:20vw;
+  height: 0.6vh;
+  background-color: white;
+  opacity: 0;
+}
+
+.product_img:hover ~ .border_img {
+  transition: 1s;
+  opacity: 1;
+}
+
+#product_name {
+  width: 10vw;
+  height: 6vh;
+  margin: 5vh 0 0 0;
+  font-family: HelveticaNeue Bold;
+  font-size: 1.3vw;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
+#product_desc {
+  width: 20vw;
+  margin: 3vh 0 2vh 1vw;
+  font-family: HelveticaNeue Regular;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e1e1e1;
+}
+
+#product_price {
+  margin: 12vh 5vw 1vh;
+  padding: 10vw 2vh 3vw 2vh;
+  font-size: 1vw;
+  font-family: Alef Regular;
+}
+
+#link_add_to_bag {
+  width: 12vw;
+  height: 5vh;
+  font-family: Helvetica Bold;
+  font-size: 1.2vw;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  text-decoration: underline 3px silver;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1500px) {
+  .border_img {
+    margin: 0 0 2vh 0;
+    width: 20vw;
+  }
+
+  #product_desc {
+    margin: 3vh 0 2vh 0;
+    font-size: 17px;
+  }
+
+  #product_name {
+    margin: 5vh 0 0.6vw;
+  }
+}
