@@ -1,5 +1,5 @@
-import HomeComponent from "../components/Home.component"
-import ProductsComponent from "../components/Products.component"
+import HomeComponent from "../components/Home/Home.component"
+import ProductsComponent from "../components/Products/Products.component"
 
 const MainPage = () => {
   return (

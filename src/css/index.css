@@ -1,5 +1,6 @@
-@import './general_style';
-@import './home_style';
-@import './products_style';
-@import './popup_style';
-@import './popup_payment_style';
+@import './general.style';
+@import '../components/Home/home.style.css';
+@import '../components/Slider/slider.style.css';
+@import '../components/Products/products.style';
+@import '../components/Popup/popup.style';
+@import '../components/PopupPayment/popupPayment.style';

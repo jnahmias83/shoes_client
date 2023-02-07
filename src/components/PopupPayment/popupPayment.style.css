@@ -1,0 +1,1424 @@
+.popup-payment {
+  background-color: white;
+  padding: 0 5vw 10vh 5vh;
+  margin-top: -83vh;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: scroll;
+}
+
+.popup-payment-inner {
+  padding: 5vh 0 3vh 0;
+  background-color: white;
+  color: black;
+}
+
+#checkout_txt {
+  font-family: HelveticaNeue Bold;
+  font-size: 26px;
+  margin-left: 40vw;
+}
+
+.close_popup_payment_btn {
+  background-color: white;
+  border: none;
+  color: rgb(233, 225, 225);
+  font-size: 30px;
+  width: 20px;
+  height: 20.7px;
+}
+
+#checkout_desc_txt {
+  margin: 3px 0 0 41vw;
+  font-family: HelveticaNeue Regular;
+  font-size: 15px;
+}
+
+.grid-popup-payment-container {
+  padding: 2vh 0 2vh 2vw;
+  display: grid;
+  gap: 2vw;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-popup-payment-item-form {
+  width: 55vw;
+}
+
+.grid-popup-payment-item-img {
+  width: 45vw;
+}
+
+.grid-popup-payment-item-imgs {
+  padding-top: 1vh;
+}
+
+#back_to_shopping {
+  font-family: HelveticaNeue Bold;
+  font-size: 12px;
+}
+
+.header_title {
+  margin-top: 18px;
+  font-size: 14px;
+  font-family: HelveticaNeue Bold;
+}
+
+.border_header {
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #1c1c1c;
+}
+
+.label_100_percents {
+  padding-top: 8px;
+  font-size: 14px;
+  color: gray;
+  display: block;
+}
+
+.div_labels {
+  margin-top: 1vh;
+  display: flex;
+}
+
+.label_firstname {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_name {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_country {
+  font-size: 14px;
+  width: 33.33%;
+  color: gray;
+}
+
+.label_city {
+  font-size: 14px;
+  width: 33.33%;
+  color: gray;
+}
+
+.label_zip {
+  font-size: 14px;
+  width: 33.33%;
+  color: gray;
+}
+
+.label_phone {
+  font-size: 14px;
+  color: gray;
+}
+
+.label_card_number {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_cvc {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_expiration_date {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_id_number {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.input_100_percents {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  padding-top: 10px;
+}
+
+.div_inputs {
+  margin: 10px 0 10px 0;
+  display: flex;
+}
+
+.div_input_firstname {
+  width: 50%;
+}
+
+.input_firstname {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_name {
+  width: 50%;
+}
+
+.input_name {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 99%;
+}
+
+.div_input_country {
+  width: 33.33%;
+}
+
+.input_country {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_city {
+  width: 33.33%;
+}
+
+.input_city {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_zip {
+  width: 33.33%;
+}
+
+.input_zip {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 99%;
+}
+
+.input_phone {
+  width: 23vw;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+}
+
+.div_input_card_number {
+  width: 50%;
+}
+
+.input_card_number {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_cvc {
+  width: 50%;
+}
+
+.input_cvc {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 99%;
+}
+
+.div_input_expiration_date {
+  width: 50%;
+}
+
+.input_expiration_date {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_id_number {
+  width: 50%;
+}
+
+.input_id_number {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 99%;
+}
+
+.div_form_bottom {
+  margin: 10px 0 10px 0;
+  display: flex;
+}
+
+.div_required_field {
+  width: 50%;
+}
+
+.required_field {
+  font-family: HelveticaNeue Thin;
+  font-weight: bold;
+}
+
+.div_btn_payment {
+  width: 50%;
+}
+
+#btn_payment_popup {
+  width: 200px;
+  height: 40px;
+  margin: 0 2vw 0 2vw;
+  padding: 1vh 2vw 1vh 2vw;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  font-family: HelveticaNeue Bold;
+}
+
+#btn_payment_popup:hover { 
+  height: 40px;
+  background-color: gray;
+  font-weight: bold;
+}
+
+.my_bag_title {
+  font-family: HelveticaNeue Bold;
+  font-size: 14px;
+}
+
+.prdt_box {
+  width: 30vw;
+  height: 140px;
+  background-color: black;
+  margin: 1vh 0 2px 0;
+}
+
+.box_close-btn {
+  padding: 1% 0.3% 0 93%;
+  background-color: black;
+  color: white;
+}
+
+.prdt_box_inner {
+  display: flex;
+  padding: 0 0 0 10px;
+  gap: 10px;
+}
+
+.selected_prdt_img_div {
+  margin-top: 4px;
+  width: 20%;
+  background-color: white;
+}
+
+.selected_prdt_img {
+  padding: 20px 0 10px 0;
+  width: 80%;
+  height: auto;
+}
+
+.div_selected_prdt {
+  width: 50%;
+}
+
+.selected_prdt {
+  font-family: HelveticaNeue Bold;
+  color: white;
+  font-size: 13px;
+}
+
+.selected_prdt_name {
+  font-family: HelveticaNeue Thin;
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.selected_prdt_txt {
+  font-family: HelveticaNeue Thin;
+  color: #c7c5c1;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.selected_prdt_price_part {
+  display: flex;
+  color: white;
+  padding-top: 4px;
+}
+
+.selected_prdt_price {
+  font-family: Alef Regular;
+}
+
+.link_modify {
+  padding: 4.5px 0 0 60px;
+  color: gray;
+  font-size: 13px;
+  font-family: Helvetica Bold;
+}
+
+.link_display_belt_box {
+  color: #717171;
+  font-size: 22px;
+  font-family: HelveticaNeue Regular;
+}
+
+.div_plus_and_belt_box {
+  display: flex;
+  gap: 5px;
+}
+
+.belt_box {
+  width: 282px;
+  height: 100px;
+  background-color: black;
+  margin: 1vh 0 2px 0;
+  opacity: 0;
+}
+
+.belt_box_close-btn {
+  padding: 1% 0.3% 0 93%;
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+
+.belt_img {
+  padding: 11px 0 5px 26px;
+  width: 50%;
+  height: 70%;
+}
+
+.belt_name {
+  font-family: HelveticaNeue Thin;
+  color: white;
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.link_add_to_bag {
+  padding: 7px 0 0 32px;
+  color: #f1f1f1;
+  font-size: 11px;
+  font-family: Helvetica Bold;
+  opacity: 1;
+  transition: 1s;
+}
+
+.link_add_to_bag:hover {
+  color: gray;
+  opacity: 0.8;
+}
+
+#popup_payment_bottom {
+  padding-top: 10px;
+}
+
+.popup-payment_mobile {
+  background-color: white;
+  padding: 0 5vw 10vh 1vh;
+  margin-top: -96vh;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: scroll;
+}
+
+.popup-payment-inner_mobile {
+  padding: 1vh 0 3vh 0;
+  background-color: white;
+  color: black;
+}
+
+#checkout_txt_mobile {
+  font-family: HelveticaNeue Bold;
+  font-size: 26px;
+  margin-left: 12vw;
+}
+
+.close_popup_payment_btn_mobile {
+  background-color: white;
+  border: none;
+  color: rgb(233, 225, 225);
+  font-size: 30px;
+  width: 20px;
+  height: 20.7px;
+  margin-left: 10vw;
+}
+
+#checkout_desc_txt_mobile {
+  margin: 3px 0 0 12vw;
+  font-family: HelveticaNeue Regular;
+  font-size: 15px;
+}
+
+.grid-popup-payment-container_mobile {
+  padding: 2vh 0 2vh 2vw;
+  display: grid;
+  gap: 2vw;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-popup-payment-item-form_mobile {
+  width: 40vw;
+}
+
+.grid-popup-payment-item-img_mobile {
+  width: 60vw;
+}
+
+.grid-popup-payment-item-imgs_mobile {
+  padding-top: 1vh;
+}
+
+#back_to_shopping_mobile {
+  font-family: HelveticaNeue Bold;
+  font-size: 12px;
+}
+
+.header_title_mobile {
+  margin-top: 18px;
+  font-size: 14px;
+  font-family: HelveticaNeue Bold;
+}
+
+.border_header_mobile {
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #1c1c1c;
+}
+
+.label_100_percents_mobile {
+  padding-top: 8px;
+  font-size: 14px;
+  color: gray;
+  display: block;
+}
+
+.div_labels_mobile {
+  margin-top: 1vh;
+  display: flex;
+}
+
+.label_firstname_mobile {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_name_mobile {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_country_mobile {
+  font-size: 14px;
+  width: 33.33%;
+  color: gray;
+}
+
+.label_city_mobile {
+  font-size: 14px;
+  width: 33.33%;
+  color: gray;
+}
+
+.label_zip_mobile {
+  font-size: 14px;
+  width: 33.33%;
+  color: gray;
+}
+
+.label_phone_mobile {
+  font-size: 14px;
+  color: gray;
+}
+
+.label_card_number_mobile {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_cvc_mobile {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_expiration_date_mobile {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.label_id_number_mobile {
+  font-size: 14px;
+  width: 50%;
+  color: gray;
+}
+
+.input_100_percents_mobile {
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  padding-top: 10px;
+}
+
+.div_inputs_mobile {
+  margin: 10px 0 10px 0;
+  display: flex;
+}
+
+.div_input_firstname_mobile {
+  width: 50%;
+}
+
+.input_firstname_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_name_mobile {
+  width: 50%;
+}
+
+.input_name_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 99%;
+}
+
+.div_input_country_mobile {
+  width: 33.33%;
+}
+
+.input_country_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_city_mobile {
+  width: 33.33%;
+}
+
+.input_city_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_zip_mobile {
+  width: 33.33%;
+}
+
+.input_zip_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 99%;
+}
+
+.input_phone_mobile {
+  width: 23vw;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+}
+
+.div_input_card_number_mobile {
+  width: 50%;
+}
+
+.input_card_number_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_cvc_mobile {
+  width: 50%;
+}
+
+.input_cvc_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 99%;
+}
+
+.div_input_expiration_date_mobile {
+  width: 50%;
+}
+
+.input_expiration_date_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 90%;
+}
+
+.div_input_id_number_mobile {
+  width: 50%;
+}
+
+.input_id_number_mobile {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  width: 99%;
+}
+
+.div_form_bottom_mobile {
+  margin: 10px 0 10px 0;
+  display: flex;
+}
+
+.div_required_field_mobile {
+  width: 50%;
+}
+
+.required_field_mobile {
+  font-family: HelveticaNeue Thin;
+  font-weight: bold;
+}
+
+.div_btn_payment_mobile {
+  width: 50%;
+}
+
+#btn_payment_popup_mobile {
+  width: 200px;
+  height: 40px;
+  margin: 0 2vw 0 2vw;
+  padding: 1vh 2vw 1vh 2vw;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  font-family: HelveticaNeue Bold;
+}
+
+.my_bag_title_mobile {
+  font-family: HelveticaNeue Bold;
+  font-size: 14px;
+}
+
+.prdt_box_mobile {
+  width: 55vw;
+  height: 30vh;
+  background-color: black;
+  margin: 1vh 0 2px 0;
+}
+
+.box_close-btn_mobile {
+  padding: 1% 0.3% 0 90%;
+  background-color: black;
+  color: white;
+}
+
+.prdt_box_inner_mobile {
+  display: flex;
+  padding: 0 0 0 10px;
+  gap: 10px;
+}
+
+.selected_prdt_img_div_mobile {
+  margin-top: 4px;
+  width: 20%;
+  background-color: white;
+}
+
+.selected_prdt_img_mobile {
+  padding: 42px 0 1px 1px;
+  width: 85%;
+  height: 30%;
+}
+
+.div_selected_prdt_mobile {
+  width: 50%;
+}
+
+.selected_prdt_mobile {
+  font-family: HelveticaNeue Bold;
+  color: white;
+  font-size: 13px;
+}
+
+.selected_prdt_name_mobile {
+  font-family: HelveticaNeue Thin;
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.selected_prdt_txt_mobile {
+  font-family: HelveticaNeue Thin;
+  color: #c7c5c1;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.selected_prdt_price_part_mobile {
+  display: flex;
+  color: white;
+  padding-top: 4px;
+}
+
+.selected_prdt_price_mobile {
+  font-family: Alef Regular;
+}
+
+.link_modify_mobile {
+  padding: 4.5px 0 0 60px;
+  color: gray;
+  font-size: 13px;
+  font-family: Helvetica Bold;
+}
+
+.link_display_belt_box_mobile {
+  color: #717171;
+  font-size: 22px;
+  font-family: HelveticaNeue Regular;
+}
+
+.div_plus_and_belt_box_mobile {
+  display: flex;
+  gap: 5px;
+}
+
+.belt_box_mobile {
+  width: 282px;
+  height: 100px;
+  background-color: black;
+  margin: 1vh 0 2px 0;
+  opacity: 0;
+}
+
+.belt_box_close-btn_mobile {
+  padding: 1% 0.3% 0 60%;
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+
+.belt_img_mobile {
+  padding: 11px 0 5px 6px;
+  width: 70%;
+  height: 70%;
+}
+
+.belt_name_mobile {
+  font-family: HelveticaNeue Thin;
+  color: white;
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.link_add_to_bag_mobile {
+  padding: 7px 0 0 3px;
+  color: #f1f1f1;
+  font-size: 11px;
+  font-family: Helvetica Bold;
+  opacity: 1;
+  transition: 1s;
+}
+
+#popup_payment_bottom_mobile {
+  padding-top: 10px;
+}
+
+@media (min-width:500px) and (max-width:600px) {
+  #checkout_txt {
+    margin-left: 20vw;
+  }
+
+  .close_popup_payment_btn { 
+    margin-left: 18vw;
+  }
+
+  #checkout_desc_txt {
+    margin: 3px 0 0 22vw;
+  }
+
+  .grid-popup-payment-item-form {
+    width: 40vw;
+  }
+  
+  .grid-popup-payment-item-img {
+    width: 60vw;
+  }
+
+  .border_header {
+    width: 90%;
+  }
+
+  .prdt_box {
+    width: 45vw;
+    height: 20vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .selected_prdt_img_div {
+    margin-top: 4px;
+    width: 30%;
+    height: 33%;
+  }
+
+  .selected_prdt_img {
+    padding: 5px 0 5px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 90%;
+    background-color: black;
+    color: white;
+  }
+  
+  .selected_prdt_img {
+    padding: 10px 0 10px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .selected_prdt_price {
+    width: 4%;
+  }
+
+  .link_modify {
+    padding: 6px 0 0 75px;
+  }
+
+  .belt_box {
+    width: 38vw;
+    margin: 1vh 0 2px 0;
+    opacity: 0;
+  }
+
+  .belt_box_close-btn {
+    padding: 1% 0.3% 0 88%;
+  }
+
+  .belt_img {
+    padding: 11px 0 5px 2px;
+    width: 100%;
+  }
+
+  .link_add_to_bag {
+    padding: 7px 0 0 38px;
+  }
+}
+
+@media (min-width:600px) and (max-width:700px) {
+  #checkout_txt {
+    margin-left: 28vw;
+  }
+
+  .close_popup_payment_btn { 
+    margin-left: 22vw;
+  }
+
+  #checkout_desc_txt {
+    margin: 3px 0 0 29vw;
+  }
+
+  .grid-popup-payment-item-form {
+    width: 50vw;
+  }
+  
+  .grid-popup-payment-item-img {
+    width: 50vw;
+  }
+
+  .border_header {
+    width: 90%;
+  }
+
+  .prdt_box {
+    width: 40vw;
+    height: 21vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .selected_prdt_img_div {
+    width: 35%;
+  }
+
+  .selected_prdt_img {
+    padding: 15px 0 9 0;
+    width: 100%;
+    height: 45%;
+  }
+
+  .selected_prdt_price {
+    width: 4%;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 93%;
+  }
+
+  .link_modify {
+    padding: 6px 0 0 79px;
+  }
+
+  .belt_box {
+    width: 33vw;
+    margin: 1vh 0 2px 0;
+    opacity: 0;
+  }
+
+  .belt_box_close-btn {
+    padding: 1% 0.3% 0 90%;
+  }
+
+  .belt_img {
+    padding: 11px 0 5px 6px;
+    width: 85%;
+  }
+
+  .link_add_to_bag {
+    padding: 7px 0 0 38px;
+  }
+}
+
+@media (min-width:700px) and (max-width:800px) {
+  #checkout_txt {
+    margin-left: 32vw;
+  }
+
+  .close_popup_payment_btn { 
+    margin-left: 26vw;
+  }
+
+  #checkout_desc_txt {
+    margin: 3px 0 0 33vw;
+  }
+
+  .grid-popup-payment-item-form {
+    width: 50vw;
+  }
+  
+  .grid-popup-payment-item-img {
+    width: 50vw;
+  }
+
+  .border_header {
+    width: 90%;
+  }
+
+  .prdt_box {
+    width: 40vw;
+    height: 21vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .selected_prdt_img_div {
+    width: 40%;
+  }
+
+  .selected_prdt_img_div {
+    height: 40%;
+  }
+
+  .selected_prdt_img {
+    padding: 5px 0 5px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .selected_prdt_price {
+    width: 4%;
+  }
+
+  .link_modify {
+    padding: 6px 0 0 93px;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 94%;
+  }
+
+  .belt_box {
+    width: 33vw;
+    margin: 1vh 0 2px 0;
+    opacity: 0;
+  }
+
+  .belt_box_close-btn {
+    padding: 1% 0.3% 0 93%;
+  }
+
+  .belt_img {
+    padding: 11px 0 5px 2px;
+    width: 85%;
+  }
+
+  .link_add_to_bag {
+    padding: 7px 0 0 38px;
+  }
+}
+
+@media (min-width:800px) and (max-width:1000px) {
+  #checkout_txt {
+    margin-left: 33vw;
+  }
+
+  .close_popup_payment_btn { 
+    margin-left: 29vw;
+  }
+
+  #checkout_desc_txt {
+    margin: 3px 0 0 34vw;
+  }
+
+  .grid-popup-payment-item-form {
+    width: 50vw;
+  }
+  
+  .grid-popup-payment-item-img {
+    width: 50vw;
+  }
+
+  .border_header {
+    width: 90%;
+  }
+
+  .prdt_box {
+    width: 40vw;
+    height: 22vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .selected_prdt_img_div {
+    width: 40%;
+  }
+
+  .selected_prdt_img {
+    padding: 15px 0 5px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 9%;
+    background-color: black;
+    color: white;
+  }
+
+  .selected_prdt_price {
+    width: 4%;
+  }
+
+  .link_modify {
+    padding: 4.5px 0 0 112px;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 94%;
+  }
+
+  .belt_box {
+    width: 33vw;
+    height: 20vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .belt_box_close-btn {
+    padding: 0.4% 0.3% 0 92%;
+  }
+
+  .belt_img {
+    padding: 9px 0 2px 8px;
+    width: 85%;
+  }
+
+  .link_add_to_bag {
+    padding: 7px 0 0 83px;
+  }
+}
+
+@media (min-width:1000px) and (max-width:1200px) {
+  #checkout_txt {
+    margin-left: 37vw;
+  }
+
+  .close_popup_payment_btn { 
+    margin-left: 33vw;
+  }
+
+  #checkout_desc_txt {
+    margin: 3px 0 0 37.5vw;
+  }
+
+  .grid-popup-payment-item-form {
+    width: 50vw;
+  }
+  
+  .grid-popup-payment-item-img {
+    width: 50vw;
+  }
+
+  .border_header {
+    width: 90%;
+  }
+
+  .prdt_box {
+    width: 37vw;
+    height: 22vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .selected_prdt_img_div {
+    width: 50%;
+  }
+
+  .selected_prdt_img {
+    padding: 15px 0 5px 20px;
+    width: 80%;
+    height: auto;
+  }
+
+  .link_modify {
+    padding: 4.5px 0 0 136px;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 9%;
+    background-color: black;
+    color: white;
+  }
+
+  .selected_prdt_price {
+    width: 4%;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 94%;
+  }
+
+  .belt_box {
+    width: 33vw;
+    height: 23vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .belt_box_close-btn {
+    padding: 0.4% 0.3% 0 94%;
+  }
+
+  .belt_img {
+    padding: 10px 0 2px 10px;
+    width: 75%;
+  }
+
+  .link_add_to_bag {
+    padding: 7px 0 0 90px;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1500px) {
+  #checkout_txt {
+    margin-left: 37vw;
+  }
+
+  .close_popup_payment_btn { 
+    margin-left: 38vw;
+  }
+
+  #checkout_desc_txt {
+    margin: 3px 0 0 37.5vw;
+  }
+
+  .grid-popup-payment-item-form {
+    width: 50vw;
+  }
+
+  #btn_payment_popup {
+    width: 220px;
+    height: 40px;
+    margin: 0 2vw 0 2vw;
+    padding: 1vh 2vw 1vh 2vw;
+  }
+  
+  .grid-popup-payment-item-img {
+    width: 50vw;
+  }
+
+  .border_header {
+    width: 90%;
+  }
+
+  .prdt_box {
+    width: 36vw;
+    height: 26vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .selected_prdt_img_div {
+    width: 50%;
+  }
+
+  .selected_prdt_img {
+    padding: 15px 0 7px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .link_modify {
+    padding: 4.5px 0 0 157px;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 9%;
+    background-color: black;
+    color: white;
+  }
+
+  .selected_prdt_price {
+    width: 4%;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 94%;
+  }
+
+  .belt_box {
+    width: 33vw;
+    height: 25vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .belt_box_close-btn {
+    padding: 0.4% 0.3% 0 94%;
+  }
+
+  .belt_img {
+    padding: 12px 0 2px 33px;
+    width: 70%;
+  }
+
+  .link_add_to_bag {
+    padding: 7px 0 0 110px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .popup-payment-inner {
+    padding: 3vh 0 3vh 0;
+  }
+
+  #checkout_txt {
+    margin-left: 37vw;
+  }
+
+  .close_popup_payment_btn {
+    padding: 0 0 3vh 42vw;
+  }
+
+  #checkout_desc_txt {
+    margin: 3px 0 0 37.5vw;
+  }
+
+  .grid-popup-payment-item-form {
+    width: 50vw;
+  }
+
+  #btn_payment_popup {
+    width: 225px;
+    height: 40px;
+    margin: 0 2vw 0 2vw;
+    padding: 1vh 2vw 1vh 2vw;
+  }
+  
+  .grid-popup-payment-item-img {
+    width: 50vw;
+  }
+
+  .border_header {
+    width: 90%;
+  }
+
+  .prdt_box {
+    width: 36vw;
+    height: 25vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .selected_prdt_img_div {
+    width: 50%;
+  }
+
+  .selected_prdt_img {
+    padding: 15px 0 7px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .link_modify {
+    padding: 4.5px 0 0 179px;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 9%;
+    background-color: black;
+    color: white;
+  }
+
+  .selected_prdt_price {
+    width: 4%;
+  }
+
+  .box_close-btn {
+    padding: 1% 0.3% 0 94%;
+  }
+
+  .belt_box {
+    width: 33vw;
+    height: 21vh;
+    margin: 1vh 0 2px 0;
+  }
+
+  .belt_box_close-btn {
+    padding: 0.4% 0.3% 0 94%;
+  }
+
+  .belt_img {
+    padding: 12px 0 2px 23px;
+    width: 70%;
+  }
+
+  .link_add_to_bag {
+    padding: 7px 0 0 130px;
+  }
+}
